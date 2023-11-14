@@ -5,8 +5,11 @@ import "./global.css";
 
 export function App() {
   return (
-    <div className={styles.wrapper}>
+    <>
       <Header />
-    </div>
+      <div className={styles.wrapper}>
+        <p>Lorem</p>
+      </div>
+    </>
   );
 }
