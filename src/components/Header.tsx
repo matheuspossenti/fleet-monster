@@ -4,16 +4,22 @@ import { Truck, HouseSimple, Phone } from "@phosphor-icons/react";
 export function Header() {
   return (
     <header className={styles.header}>
-      <Truck size={95} />
-      <span className={styles.title}>FleetMonster</span>
+      <div className={styles.logo}>
+        <Truck size={95} />
+        <span className={styles.title}>FleetMonster</span>
+      </div>
       <ul className={styles.list}>
         <li>
-          <HouseSimple size={25} />
-          <span>Home</span>
+          <a href="#">
+            <HouseSimple size={35} />
+            <span>Home</span>
+          </a>
         </li>
         <li>
-          <Phone size={25} />
-          <span>Contato</span>
+          <a href="#">
+            <Phone size={35} />
+            <span>Contato</span>
+          </a>
         </li>
       </ul>
     </header>
