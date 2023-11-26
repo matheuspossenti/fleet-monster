@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   color: var(--gray-900);
+  margin-bottom: 1rem;
 }
 
 h1 {
@@ -13,7 +14,9 @@ h1 {
   font-weight: 400;
 }
 
-.title > span {
+.title > a {
   display: flex;
   font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--gray-900);
 }

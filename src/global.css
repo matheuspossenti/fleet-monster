@@ -5,6 +5,7 @@
   --gray-100: #dddddd;
 
   --white: #ffffff;
+  --red: #ff0000;
 }
 
 :focus {
@@ -22,9 +23,6 @@ body {
   background: var(--gray-100);
   color: var(--gray-100);
   -webkit-font-smoothing: antialiased;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
 body,

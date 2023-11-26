@@ -9,7 +9,7 @@ export function Veiculos() {
           <CarProfile size={40} />
           Veículos
         </h1>
-        <span>+ Adicionar</span>
+        <a href="#">+ Adicionar</a>
       </div>
     </>
   );

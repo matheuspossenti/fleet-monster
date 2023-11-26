@@ -6,10 +6,10 @@ export function Header() {
   return (
     <>
       <header className={styles.header}>
-        <div className={styles.logo}>
+        <a className={styles.logo}>
           <Truck size={95} />
           <span className={styles.title}>FleetSense</span>
-        </div>
+        </a>
         <ul className={styles.list}>
           <li>
             <a href="#">

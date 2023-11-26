@@ -1,0 +1,35 @@
+.motorista{
+    background: var(--white);
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.motorista + .motorista{
+    margin-top: 1rem;
+}
+
+.motorista > span:not(:first-child){
+    display: flex;
+    color: var(--gray-900);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.name{
+    font-size: 1.5rem;
+    font-weight: 550;
+    color: var(--gray-900);
+}
+
+.motorista button {
+    background: transparent;
+  border: 0;
+  color: var(--gray-400);
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 2px;
+  color: var(--red);
+}
