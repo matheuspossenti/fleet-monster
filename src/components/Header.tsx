@@ -8,7 +8,7 @@ export function Header() {
       <header className={styles.header}>
         <div className={styles.logo}>
           <Truck size={95} />
-          <span className={styles.title}>FleetMonster</span>
+          <span className={styles.title}>FleetSense</span>
         </div>
         <ul className={styles.list}>
           <li>

@@ -1,9 +1,16 @@
-import styles from './Veiculos.module.css'
+import { CarProfile } from "@phosphor-icons/react";
+import styles from "./Veiculos.module.css";
 
 export function Veiculos() {
-    return (
-        <div>
-            <h1>Veiculos</h1>
-        </div>
-    )
+  return (
+    <>
+      <div className={styles.title}>
+        <h1>
+          <CarProfile size={40} />
+          Veículos
+        </h1>
+        <span>+ Adicionar</span>
+      </div>
+    </>
+  );
 }

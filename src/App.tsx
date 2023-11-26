@@ -3,13 +3,14 @@ import styles from "./App.module.css";
 
 import "./global.css";
 import { Footer } from "./components/Footer";
+import { Veiculos } from "./components/Veiculos";
 
 export function App() {
   return (
     <>
       <Header />
       <div className={styles.wrapper}>
-        <p>Lorem</p>
+        <Veiculos />
       </div>
       <Footer />
     </>
