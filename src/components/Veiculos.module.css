@@ -20,3 +20,12 @@ h1 {
   text-decoration: none;
   color: var(--gray-900);
 }
+
+.form{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 1rem;
+}

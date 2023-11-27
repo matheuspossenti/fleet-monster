@@ -12,6 +12,24 @@ export function Veiculos() {
         </h1>
         <a href="#">+ Adicionar</a>
       </div>
+      <div className={styles.cadastro}>
+        <h1>Cadastro de Veículos</h1>
+        <div className={styles.form}>
+          <form action="">
+            <label htmlFor="fmodelo"></label>
+            <input type="text" id="fmodelo" />
+            <label htmlFor="fmodelo"></label>
+            <input type="text" id="fmodelo" />
+            <label htmlFor="fmodelo"></label>
+            <input type="text" id="fmodelo" />
+          </form>
+          <footer>
+            <button>
+              Cadastrar
+            </button>
+          </footer>
+        </div>
+      </div>
       <ListVeiculo />
     </>
   );

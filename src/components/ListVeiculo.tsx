@@ -1,4 +1,4 @@
-import { GasPump, Globe } from "phosphor-react";
+import { GasPump, GlobeHemisphereWest } from "phosphor-react";
 import styles from "./ListVeiculo.module.css";
 import img from "../assets/truck.svg";
 
@@ -22,7 +22,7 @@ export function ListVeiculo(){
                         Abastecimento
                     </button>
                     <button>
-                        <Globe size={25} />
+                        <GlobeHemisphereWest size={25} />
                         Viagens
                     </button>
                 </div>
