@@ -1,5 +1,6 @@
 import { CarProfile } from "@phosphor-icons/react";
 import styles from "./Veiculos.module.css";
+import { ListVeiculo } from "./ListVeiculo";
 
 export function Veiculos() {
   return (
@@ -11,6 +12,7 @@ export function Veiculos() {
         </h1>
         <a href="#">+ Adicionar</a>
       </div>
+      <ListVeiculo />
     </>
   );
 }

@@ -12,6 +12,7 @@ export function App() {
       <Header />
       <div className={styles.wrapper}>
         <Motoristas />
+        <Veiculos />
       </div>
       <Footer />
     </>
